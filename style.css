@@ -1,0 +1,405 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playball&display=swap");
+* {
+  font-family: Poppins;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #4d4d4d;
+}
+
+.red_btn {
+  width: 150px;
+  padding: 10px;
+  border: none;
+  font-size: 16px;
+  color: white;
+  background: #D53A3A;
+  border-radius: 3px;
+}
+
+.background_container .blur_img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -webkit-filter: blur(9px);
+          filter: blur(9px);
+}
+
+.background_container .sec_bg_img {
+  width: 100%;
+  height: 700px;
+}
+
+.background_container .contact_form {
+  bottom: 0;
+  width: 100vw;
+  height: 500px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  background-color: #4d4d4d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.background_container .contact_form h1 {
+  font-size: 20px;
+  color: #c1c1c1;
+}
+
+.background_container .contact_form form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.background_container .contact_form form .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.background_container .contact_form form .contact input {
+  height: 15%;
+  padding: 10px;
+  background: gray;
+  border: none;
+  width: 200px;
+  color: white;
+  border-radius: 5px;
+  /* margin: 5px; */
+}
+
+.background_container .contact_form form .contact input::-webkit-input-placeholder {
+  font-size: 12px;
+  color: white;
+}
+
+.background_container .contact_form form .contact input:-ms-input-placeholder {
+  font-size: 12px;
+  color: white;
+}
+
+.background_container .contact_form form .contact input::-ms-input-placeholder {
+  font-size: 12px;
+  color: white;
+}
+
+.background_container .contact_form form .contact input::placeholder {
+  font-size: 12px;
+  color: white;
+}
+
+.background_container .contact_form form textarea {
+  background-color: gray;
+  margin: 0 10px;
+  border: none;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.background_container .contact_form form textarea::-webkit-input-placeholder {
+  font-size: 12px;
+  color: white;
+}
+
+.background_container .contact_form form textarea:-ms-input-placeholder {
+  font-size: 12px;
+  color: white;
+}
+
+.background_container .contact_form form textarea::-ms-input-placeholder {
+  font-size: 12px;
+  color: white;
+}
+
+.background_container .contact_form form textarea::placeholder {
+  font-size: 12px;
+  color: white;
+}
+
+.background_container .contact_form button {
+  margin: 12px 0;
+}
+
+.background_container .main_container {
+  position: absolute;
+  top: 100px;
+  right: 10%;
+  left: 10%;
+  background: linear-gradient(179.77deg, rgba(92, 92, 92, 0.5) 4.75%, #4d4d4d 50%);
+  -webkit-box-shadow: 0px 4px 21px 18px rgba(80, 80, 80, 0.52);
+          box-shadow: 0px 4px 21px 18px rgba(80, 80, 80, 0.52);
+  width: 80%;
+}
+
+.background_container .main_container .background_img {
+  width: 100%;
+  background: url(./Images/garrhet-sampson-CmF_5GYc6c0-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.background_container .main_container .banner_content {
+  margin: 40px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: white;
+  align-items: center;
+  position: relative;
+  left: 0;
+  text-align: center;
+  width: 500px;
+}
+
+.background_container .main_container .banner_content h1 {
+  font-family: Poppins;
+  width: 300px;
+  font-size: 50px;
+}
+
+.background_container .main_container .banner_content h2 {
+  font-family: Playball;
+  margin-top: -20px;
+  text-align: center;
+  font-size: 24px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.background_container .main_container .banner_content p {
+  font-size: 18px;
+  width: 100%;
+}
+
+.background_container .main_container .detailed_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  color: white;
+  padding: 5px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-bottom: 50px;
+}
+
+.background_container .main_container .detailed_content .about {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: right;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.background_container .main_container .detailed_content .about h1 {
+  font-size: 24px;
+}
+
+.background_container .main_container .detailed_content .about .detail_about {
+  width: 500px;
+  font-size: 16px;
+  /* margin-top: -25px; */
+}
+
+.background_container .main_container .detailed_content .team {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.background_container .main_container .detailed_content .team h1 {
+  font-size: 24px;
+  /* width: 500px; */
+}
+
+.background_container .main_container .detailed_content .team .team_mem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.background_container .main_container .detailed_content .team .team_mem img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+.background_container .main_container .detailed_content .team .team_mem .team_details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-left: 20px;
+  height: fit-content;
+}
+
+.background_container .main_container .detailed_content .team .team_mem .team_details h2 {
+  font-size: 16px;
+}
+
+.background_container .main_container .detailed_content .team .team_mem .team_details p {
+  font-size: 14px;
+  margin-top: 3px;
+  margin-top: -20px;
+}
+
+.background_container .main_container .sec_container {
+  width: 100%;
+  background: #c4c4c4;
+  position: relative;
+  color: #4d4d4d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.background_container .main_container .sec_container h1 {
+  text-align: center;
+  font-size: 32px;
+  margin-top: 50px;
+}
+
+.background_container .main_container .sec_container .btn_combo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.background_container .main_container .sec_container .btn_combo button {
+  background: transparent;
+  color: #4d4d4d;
+  border: 1px solid #4d4d4d;
+  border-radius: 15px;
+  padding: 10px;
+  outline: none;
+  font-size: 13px;
+  width: 120px;
+  margin: 0 10px;
+}
+
+.background_container .main_container .sec_container .gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 300px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 50px 0 150px;
+}
+
+.background_container .main_container .sec_container .gallery .img {
+  width: 40%;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+.background_container .main_container .sec_container .gallery .one {
+  background-image: url(./Images/kevin-bhagat-zNRITe8NPqY-unsplash.jpg);
+}
+
+.background_container .main_container .sec_container .gallery .two {
+  background-image: url(./Images/christopher-gower-m_HRfLhgABo-unsplash.jpg);
+}
+
+.background_container .main_container .sec_container .gallery .three {
+  background-image: url(./Images/luca-bravo-9l_326FISzk-unsplash.jpg);
+}
+
+.background_container .main_container .sec_container .gallery .four {
+  background-image: url(./Images/domenico-loia-hGV2TfOh0ns-unsplash.jpg);
+}
+
+.background_container .main_container .sec_container::before {
+  content: '';
+  position: absolute;
+  left: 45%;
+  display: inline-block;
+  margin: 0 auto 0;
+  width: 100px;
+  height: 100px;
+  border-radius: 300px;
+  margin-top: -50px;
+  background-color: #c4c4c4;
+}
+
+.background_container .main_container .sec_container::after {
+  content: '';
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  background-color: #4d4d4d;
+  bottom: 0;
+  margin-bottom: -50px;
+  left: 45%;
+}
+/*# sourceMappingURL=style.css.map */

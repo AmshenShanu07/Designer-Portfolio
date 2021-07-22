@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+
+*{
+    font-family: Poppins;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #4d4d4d;
+}
+
+.red_btn{
+    padding: 20px;
+    // width: 350px;
+    border: none;
+    font-size: 20px;
+    color: white;
+    background: #D53A3A;
+}
+
+.background_container {
+  // background: rgba(88, 88, 88, 1);
+
+  .blur_img {
+    width: 100%;
+    object-fit: contain;
+    filter: blur(9px);
+  }
+
+  .sec_bg_img{
+    width: 100%;
+    // height: 3000px;
+  }
+
+  .contact_form{
+    bottom: 0;
+    width: 100vw;
+    height: 500px;
+    margin-top: 500px;
+    margin-bottom: 500px;
+    background-color: #4d4d4d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h1{
+      font-size: 20px;
+      color: rgba(193, 193, 193, 1);
+
+    }
+
+    form{
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      .contact{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+        input{
+          height: 30%;
+          padding: 20px;
+          background: rgba(128, 128, 128, 1);
+          border: none;
+          width: 800px;
+          color: white;
+          border-radius: 10px;
+          &::placeholder{
+            font-size: 40px;
+            color: white;
+          }
+        }
+      }
+
+      textarea{
+        background-color: rgba(128, 128, 128, 1);
+        margin:0 20px;
+        border: none;
+        padding: 20px;
+        border-radius: 10px;
+        &::placeholder{
+          font-size: 20px;
+          color: white;
+        }
+
+      }
+    }
+    button{
+      margin: 20px 0;
+    }
+  }
+
+  .main_container {
+    position: absolute;
+    top: 100px; 
+    right: 10%;
+    left: 10%;
+    background: linear-gradient(
+      179.77deg,
+      rgba(92, 92, 92, 0.50) 4.75%,
+      #4d4d4d 50%
+    );
+    box-shadow: 0px 4px 21px 18px rgba(80, 80, 80, 0.52);
+    width: 80%;
+    // padding-bottom: 500px;
+
+    .background_img {
+      width: 100%;
+      background: url(./Images/garrhet-sampson-CmF_5GYc6c0-unsplash.jpg);
+      background-position: center;
+      background-size: cover;      
+    }
+
+    .banner_content{
+        margin: 40px 30px;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        width: fit-content;
+        
+        h1{
+            font-family: Poppins;
+            width: 500px;
+            font-size: 50px;
+            line-height: 180px;
+        }
+        h2{
+            font-family: Playball;
+            margin-top: -100px;
+            font-size:24px;
+            width: fit-content;
+        }
+        
+        p{
+            font-size: 18px;
+            width: 40%;
+        }
+    }
+
+    .detailed_content{
+      display: flex;
+      width: 100%;
+      color: white;
+      padding: 5px;
+      justify-content: space-evenly;
+      margin-bottom: 50px;
+
+      .about{
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+        align-items: flex-end;
+        
+
+        h1{
+          font-size: 24px;
+          
+        }
+
+        .detail_about{
+          width: 500px;
+          font-size: 16px;
+          margin-top: -25px;
+        }
+
+      }
+
+      .team{
+        width: fit-content;
+        h1{
+          font-size: 24px;
+        }
+
+        .team_mem{
+          display: flex;
+          width: fit-content;
+          align-items: center;
+          
+
+          img{
+            width: 50px;
+            height: 50px;
+            border-radius: 50px;
+          }
+          
+          .team_details{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            margin-left: 20px;
+            h2{
+              font-size: 20px;
+            }
+            p{
+              font-size: 18px;
+              margin-top: -20px;
+            }
+          }
+        }
+      }
+
+    }
+
+
+    .sec_container{
+      width: 100%;
+      background: rgba(196, 196, 196, 1);
+      position: relative;
+      color: rgba(77, 77, 77, 1);
+      display: flex;
+      flex-direction: column;
+      
+
+      h1{
+        text-align: center;
+        font-size: 100px;
+        margin-top: 200px;
+      }
+
+      .btn_combo{
+        display: flex;
+        width: 100%;  
+        justify-content: center;
+
+        button{
+          background: transparent;
+          color: rgba(77, 77, 77, 1);
+          border: 1px solid rgba(77, 77, 77, 1);
+          border-radius: 20px;
+          padding: 20px;
+          outline: none;
+          font-size: 20px;
+          width: 400px;
+          margin: 0 20px;
+        }
+      }
+
+      .gallery{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 300px;
+        justify-content: center;
+        margin: 100px 0 500px;
+
+        .img{
+          width: 40%;
+          height: 500px;
+          background-position: center;
+          background-size: cover;
+          filter: grayscale(100%);
+        }
+        
+        .one{
+          background-image: url(./Images/kevin-bhagat-zNRITe8NPqY-unsplash.jpg);
+        }
+        .two{
+          background-image: url(./Images/christopher-gower-m_HRfLhgABo-unsplash.jpg);
+        }
+        .three{
+          background-image: url(./Images/luca-bravo-9l_326FISzk-unsplash.jpg);
+        }
+        .four{
+          background-image: url(./Images/domenico-loia-hGV2TfOh0ns-unsplash.jpg);
+        }
+
+      }
+
+
+      &::before{
+        content: '';
+        position: absolute;
+        left: 45%;
+        display: inline-block;
+        margin: 0 auto 0;
+        width: 300px;
+        height: 300px;
+        border-radius: 300px;
+        margin-top: -150px;
+        background-color: rgba(196, 196, 196, 1);
+      }
+
+      &::after{
+        content: '';
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        border-radius: 300px;
+        background-color: #4d4d4d;
+        bottom: 0;
+        margin-bottom: -150px;
+        left: 45%;
+      }
+
+    }
+  }
+}
