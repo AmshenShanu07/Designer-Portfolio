@@ -363,19 +363,19 @@ body {
 }
 
 .background_container .main_container .sec_container .gallery .one {
-  background-image: url(./Images/kevin-bhagat-zNRITe8NPqY-unsplash.jpg);
+  background-image: url(./Images/galleryOne.jpeg);
 }
 
 .background_container .main_container .sec_container .gallery .two {
-  background-image: url(./Images/christopher-gower-m_HRfLhgABo-unsplash.jpg);
+  background-image: url(./Images/galleryTwo.jpeg);
 }
 
 .background_container .main_container .sec_container .gallery .three {
-  background-image: url(./Images/luca-bravo-9l_326FISzk-unsplash.jpg);
+  background-image: url(./Images/galleryThree.jpeg);
 }
 
 .background_container .main_container .sec_container .gallery .four {
-  background-image: url(./Images/domenico-loia-hGV2TfOh0ns-unsplash.jpg);
+  background-image: url(./Images/galleryFour.jpeg);
 }
 
 .background_container .main_container .sec_container::before {
